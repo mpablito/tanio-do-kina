@@ -169,9 +169,11 @@ a {
 .iframeMap {
   width: 100%;
   height: 86vh;
-}
+  }
 
-
+  .pins {
+    margin-top: 0;
+  }
 
 
 
@@ -209,9 +211,6 @@ a {
 
 
 
-
-
-
 /* 48em = 768px */
 
 @media (min-width: 48em) {
@@ -221,7 +220,7 @@ a {
   }
 
   .header li a {
-    padding: 20px 30px;
+    padding: 1.25em 1.4375em;
   }
 
   .header .menu {
@@ -245,7 +244,9 @@ a {
     margin: 0 auto;
   }
 
-
+  .pins {
+    margin-top: 2em;
+  }
 
 
 
@@ -272,7 +273,7 @@ a {
 .footer #button:hover{
 	width:35px;
 	height:35px;
-	border: #3A3A3A 12px solid;
+	border: #408682   12px solid;
 	/* border: #5bb4ae 12px solid; */
 	-webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -302,7 +303,7 @@ a {
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
-	height: 10em;
+	height: 6em;
 }
 .footer #container{
 	margin-top:5px;
@@ -316,7 +317,7 @@ height:100%;
 }
 .footer #cont{
   position:relative;
-  top:-45px;
+  top:-65px;
   right:190px;
 	width:150px;
 	height:auto;
@@ -328,20 +329,26 @@ height:100%;
   text-align:center;
 }
 .footer h3{
-	font-family: 'Helvetica';
-	font-size: 30px;
-	font-weight: 100;
+		font-size: 1.2em;
 	margin-top:70px;
   margin-left:40px;
   color: white;
 }
+
+
+
+
+
 
 .bannerMap {
   display: block;
 }
 
 
-
+.iframeMap {
+  width: 100%;
+  height: 65vh;
+  }
 
 
 
